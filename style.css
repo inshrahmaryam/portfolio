@@ -73,7 +73,7 @@ body{
 .home-content h3 span{
     color:#0ef;
 }
-home-content h1{
+.home-content h1{
     font-size:56px;
     font-weight: 700;
     margin:-3px 0;
@@ -87,7 +87,7 @@ home-content h1{
     animation:slideLeft 1s ease forwards;
     animation-delay: 1s;
     color:#0ef;
-   
+    
 }
 .home-sci a {
 display:inline-flex;
@@ -132,11 +132,13 @@ background: transparent;
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 100vh; /* Full viewport height */
+    height:auto;
+    min-height: 100vh; /* Full viewport height */
     background: url('bg4.png') no-repeat center center; /* Ensure correct path and positioning */
     background-size: cover; /* Ensures the image covers the section */
     padding-left: 20%; /* Adjust this value to shift the section more to the right */
     background-color: transparent; /* Remove or adjust background color to blend with the image */
+    /* margin-bottom: 2rem; */
 }
 
 .about-img {
@@ -194,7 +196,7 @@ html {
     color:aliceblue;
     font-size:20px;
     line-height:1.4;
-    margin-bottom:4rem;
+    /* margin-bottom:1rem; */
 }
 .sub-title{
     text-align: center;
@@ -306,3 +308,65 @@ display:inline-block;
 .home-content .text {
     padding-left: 10px; /* Adjust this value to add space before the text */
 }
+
+  .projects{
+    background:#0a1c2a
+  }
+.projects-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .project-item {
+    background: #081b29;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+  }
+  
+  .project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #00eeff;
+  }
+  
+  .project-item i {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  
+  .project-item h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #00eeff;
+  }
+  
+  .project-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ededed;
+  }
+  
+  .project-item .read {
+    font-size: 14px;
+    font-weight: bold;
+    color: #081b29;
+    background-color: #00eeff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .project-item .read:hover {
+    background-color: transparent;
+    color: #00eeff;
+    border: 2px solid #00eeff;
+  }
+  
+  
+  
