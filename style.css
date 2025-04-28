@@ -196,7 +196,7 @@ html {
     color:aliceblue;
     font-size:20px;
     line-height:1.4;
-    /* margin-bottom:1rem; */
+
 }
 .sub-title{
     text-align: center;
@@ -368,5 +368,6 @@ display:inline-block;
     border: 2px solid #00eeff;
   }
   
-  
+ 
+
   
