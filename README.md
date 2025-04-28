@@ -10,7 +10,6 @@ This repository showcases my skills, projects, and experience as a web developer
 - CSS
 - JavaScript
 - GitHub Pages
-- [Other tools/technologies you're using]
 
 ## 📜 About This Portfolio
 
@@ -20,16 +19,9 @@ This portfolio is a showcase of my work as a web developer. It includes:
 - A structured layout displaying key projects and skills.
 - Easy navigation for an enhanced user experience.
 
-## 🌟 Featured Projects
-
-1. **[Project 1 Name]** - Description of what the project is about.
-2. **[Project 2 Name]** - Description of what the project is about.
-3. **[Project 3 Name]** - Description of what the project is about.
-   *(Add more projects if necessary)*
-
 ## ⚡ Key Features
 
-- Mobile-friendly and responsive design.
+- Responsive design.
 - Smooth transitions and user interactions.
 - Detailed sections highlighting projects, skills, and contact info.
 
